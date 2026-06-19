@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# RAGAS demo outputs (generated when running the notebook)
+eval_results.csv
+hf_docs_kg.json
+hf_docs_kg.html
+experiments/

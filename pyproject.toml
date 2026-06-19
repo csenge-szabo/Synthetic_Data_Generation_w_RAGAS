@@ -1,0 +1,30 @@
+[project]
+name = "ragas-synthetic-data-demo"
+version = "0.1.0"
+authors = [{ name = "Csenge Szabo", email = "csenge.szabo@onefold.ai" }]
+description = "Live-demo notebook for evaluating RAG with RAGAS-generated synthetic test data"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = { text = "MIT" }
+
+dependencies = [
+    "ragas>=0.4,<0.5",
+    "rapidfuzz",
+    "langchain-community<0.4",
+    "langchain-openai",
+    "langchain-text-splitters",
+    "langchain-core",
+    "openai",
+    "datasets",
+    "pandas",
+    "numpy",
+    "python-dotenv",
+    "networkx",
+    "matplotlib",
+    "pyvis",
+    "jupyter",
+    "ipython",
+]
+
+[tool.setuptools]
+py-modules = []
